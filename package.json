@@ -1,0 +1,23 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "https://getstream.io/",
+	"scripts": {
+		"start": "cd dist && node server.js",
+		"watch": "nodemon start",
+		"build": "./build.sh"
+	},
+	"author": [
+		{
+			"name": "Nick Parsons",
+			"email": "nick@getstream.io"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"keywords": ["API", "Express", "REST", "Mongoose", "MongoDB"],
+	"dependencies": {
+		"babel": "^6.23.0",
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1"
+	}
+}
