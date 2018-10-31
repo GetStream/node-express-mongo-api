@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "https://getstream.io/",
 	"scripts": {
-		"start": "cd dist && node server.js",
+		"start": "cd src && node server.js",
 		"watch": "nodemon start",
 		"build": "./build.sh"
 	},

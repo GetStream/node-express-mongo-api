@@ -92,6 +92,7 @@ export const UserSchema = new Schema(
 );
 
 UserSchema.pre('save', function(next) {
+	
 	if (!this.isNew) {
 		next();
 	}
@@ -100,13 +101,14 @@ UserSchema.pre('save', function(next) {
 		type: 'welcome',
 		email: this.email
 	})
-		.then(() => {
-			next();
-		})
-		.catch(err => {
-			logger.error(err);
-			next();
-		});
+	.then(() => {
+		next();
+	})
+	.catch(err => {
+		logger.error(err);
+		next();
+	});
+
 });
 
 UserSchema.pre('findOneAndUpdate', function(next) {
