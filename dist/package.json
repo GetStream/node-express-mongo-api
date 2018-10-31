@@ -1,0 +1,56 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Boilerplate API for Express, Mongoose, and MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetStream/node-express-mongo-api.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Mongoose",
+    "MongoDB",
+    "Express"
+  ],
+  "author": "Nick Parsons <nick@getstream.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GetStream/node-express-mongo-api/issues"
+  },
+  "homepage": "https://github.com/GetStream/node-express-mongo-api#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "mongoose": "^5.0.4",
+    "mongoose-bcrypt": "^1.5.0",
+    "mongoose-string-query": "^0.2.5",
+    "serve-favicon": "^2.4.5",
+    "validator": "^9.4.0",
+    "winston": "^2.4.0",
+    "winston-papertrail": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "prettier": "^1.10.2",
+    "prettierrc": "^0.0.0-5"
+  }
+}
