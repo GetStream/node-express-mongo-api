@@ -33,7 +33,7 @@
     "dotenv": "^5.0.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "express-jwt": "^5.3.0",
+    "express-jwt": "^6.1.2",
     "mongoose": "^5.0.4",
     "mongoose-bcrypt": "^1.5.0",
     "mongoose-string-query": "^0.2.5",

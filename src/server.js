@@ -20,7 +20,7 @@ api.use(bodyParser.urlencoded({ extended: true }));
 api.use(bodyParser.json());
 
 api.use(
-	jwt({ secret: config.jwt.secret }).unless({
+	jwt({ secret: config.jwt.secret, algorithms: ['HS256'] }).unless({
 		path: [
 			'/',
 			'/auth/signup',
